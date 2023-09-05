@@ -16,5 +16,7 @@ namespace Stars
         {
             InitializeComponent();
         }
+
+        // Тут рабочий код
     }
 }
