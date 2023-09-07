@@ -56,7 +56,7 @@ namespace Stars
 
         private void Drawstar(Star star)
         {
-            float starsize = 7;
+            float starsize = Map(star.Z, 0, pictureBox1.Width, 9, 0); ;
 
             float x = Map(star.X / star.Z, 0, 1, 0, pictureBox1.Width) + pictureBox1.Width / 2;
 
